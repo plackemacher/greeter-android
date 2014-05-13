@@ -66,7 +66,7 @@ public class MainActivity extends Activity implements SensorEventListener {
 
 		mTextView.setText(String.format("%.0f lux", lightLevel));
 
-		if(lightLevel < 20.0f) {
+		if(lightLevel < 50.0f) {
 			mTextView.setTextColor(COLOR_SCARED);
 
 			stopSound();
